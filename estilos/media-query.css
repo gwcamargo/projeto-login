@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Configurações para telas grandes (desktops) */
 @media screen and (min-width: 1025px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -19,8 +20,17 @@
         float: right;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
 }
 
+/* Configurações para IPads e Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
